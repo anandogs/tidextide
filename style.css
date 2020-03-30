@@ -1,96 +1,92 @@
 body{
   background-color: #F7F7F5;
+  padding-top: 130px;
+  padding-right: 85px;
+  padding-left: 85px;
 }
 
-nav{
+header{
   display: grid;
   grid-template-columns: 1fr 3fr;
   column-gap: 2.5%;
-  padding-top: 180px;
-  padding-bottom: 140px;
-  padding-right: 140px;
-  padding-left: 140px;
+  padding-bottom: 85px;
+
+}
+
+.nav-up {
+  top: -85px;
 }
 
 main{
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 3fr;
   column-gap: 2.5%;
-  padding-bottom: 140px;
-  padding-right: 140px;
-  padding-left: 140px;
+  
+  padding-bottom: 85px;
 }
 
 .services{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-right: 140px;
-  padding-left: 140px;
   column-gap: 2.5%;
-  padding-bottom: 140px;
+  padding-bottom: 85px;
 }
 
 .social{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-right: 140px;
-  padding-left: 140px;
   column-gap: 2.5%;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .images{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-right: 140px;
-  padding-left: 140px;
   column-gap: 2.5%;
   row-gap: 30px;
-  grid-auto-rows: 206px;
-  padding-bottom: 140px;
+  grid-auto-rows: 235px;
+  padding-bottom: 85px;
 }
 
 footer{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   column-gap: 2.5%;
-  padding-bottom: 140px;
-  padding-right: 140px;
-  padding-left: 140px;
+  padding-bottom: 130px;
   font-family: 'Gotu', sans-serif;
   font-size: 13pt;
 
 }
 
 .content{
-  /*background-color:#eee;*/
   font-family: 'Gotu', sans-serif;
-  font-size: 28pt;
+  font-size: 23pt;
+  line-height: 32pt;
 }
 
-/*.border {
-  background-color: #ddd;
-}*/
-/*.logo{
-  background-color:#eee;
-}*/
 .menu {
-  /*background-color: #eee;*/
   text-align: right;
   font-family: 'Gotu', sans-serif;
   font-size: 18pt;
+
 }
 
-.service1 > .nested2{
+#menu-spacing {
+  padding-left: 4%;
+}
 
-  line-height: 42.4pt;
-
+.service0 {
+  font-family: 'Muli', sans-serif;
+  font-size: 14pt;
+  letter-spacing: .16em;
+  
 }
 
 .service1 {
 
   font-family: 'Gotu', sans-serif;
   font-size: 18pt;
+  
 
 }
 
@@ -101,26 +97,22 @@ footer{
 
 }
 
-.service2 > .nested2{
-  line-height: 42.4pt;
-  }
+.service1 > .nested2{
 
+  line-height: 33pt;
 
-.service0 {
-  font-family: 'Muli', sans-serif;
-  font-size: 16pt;
-  letter-spacing: .16em;
-  
 }
+
+.service2 > .nested2{
+  
+  line-height: 33pt;
+
+  }
 
 .social0 {
   font-family: 'Muli', sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
   letter-spacing: .16em;
-}
-
-#menu-spacing {
-  padding-left: 1em;
 }
 
 .image{
@@ -131,6 +123,10 @@ footer{
   line-height: 19pt;
 }
 
+.buttons{
+  line-height: 25pt;
+}
+
 #navlink {
 
   padding-bottom: 7px;
@@ -138,7 +134,7 @@ footer{
 }
 
 #navlink:hover {
-  border-bottom: 3pt solid black;
+  border-bottom: 3pt solid #588AA4;
   
   
 }
