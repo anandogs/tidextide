@@ -3,6 +3,8 @@ body{
   padding-top: 130px;
   padding-right: 85px;
   padding-left: 85px;
+  font-family: 'Gotu', sans-serif ;
+  
 }
 
 header{
@@ -21,7 +23,6 @@ main{
   display: grid;
   grid-template-columns: 1fr 3fr;
   column-gap: 2.5%;
-  
   padding-bottom: 85px;
 }
 
@@ -39,34 +40,23 @@ main{
   padding-bottom: 30px;
 }
 
-.images{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 2.5%;
-  row-gap: 30px;
-  grid-auto-rows: 235px;
-  padding-bottom: 85px;
-}
-
 footer{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   column-gap: 2.5%;
   padding-bottom: 130px;
-  font-family: 'Gotu', sans-serif;
   font-size: 13pt;
 
 }
 
 .content{
-  font-family: 'Gotu', sans-serif;
   font-size: 23pt;
   line-height: 32pt;
 }
 
 .menu {
+  padding-top: 47px;
   text-align: right;
-  font-family: 'Gotu', sans-serif;
   font-size: 18pt;
 
 }
@@ -84,7 +74,6 @@ footer{
 
 .service1 {
 
-  font-family: 'Gotu', sans-serif;
   font-size: 18pt;
   
 
@@ -92,7 +81,6 @@ footer{
 
 .service2 {
   
-  font-family: 'Gotu', sans-serif;
   font-size: 18pt;
 
 }
@@ -115,7 +103,31 @@ footer{
   letter-spacing: .16em;
 }
 
+
+.bioimages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2.5%;
+  row-gap: 30px;
+  grid-auto-rows: 470px;
+  padding-bottom: 40px;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2.5%;
+  row-gap: 30px;
+  grid-auto-rows: 235px;
+  padding-bottom: 85px;
+}
+
+
 .image{
+  background-color: #C6C6C6;
+}
+
+.bioimage{
   background-color: #C6C6C6;
 }
 
@@ -136,5 +148,33 @@ footer{
 #navlink:hover {
   border-bottom: 3pt solid #588AA4;
   
+}
+
+a {
+
+  text-decoration: none;
+  color: #000000;
+}
+
+.biotxt{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2.5%;
+  row-gap: 30px;
+  padding-bottom: 85px;
+}
+
+.bioheading{
+
+  font-family: 'Muli', sans-serif;
+  font-size: 14pt;
+  letter-spacing: .16em;
+  padding-bottom: 40px;
+
+}
+
+.active {
+  
+  border-bottom: 3pt solid #588AA4;
   
 }
