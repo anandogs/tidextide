@@ -1,8 +1,8 @@
 body{
   background-color: #F7F7F5;
   padding-top: 130px;
-  padding-right: 85px;
-  padding-left: 85px;
+  padding-right: 7%;
+  padding-left: 7%;
   font-family: 'Gotu', sans-serif ;
   
 }
@@ -13,10 +13,6 @@ header{
   column-gap: 2.5%;
   padding-bottom: 85px;
 
-}
-
-.nav-up {
-  top: -85px;
 }
 
 main{
@@ -55,7 +51,6 @@ footer{
 }
 
 .menu {
-  padding-top: 47px;
   text-align: right;
   font-size: 18pt;
 
@@ -178,4 +173,24 @@ a {
   
   border-bottom: 3pt solid #588AA4;
   
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background: #F7F7F5;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 25px;
+  column-gap: 2.5%;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.nav-up {
+  top: -160px;
 }
