@@ -8,14 +8,17 @@ const IndexPage = () => {
     
     <Layout>
       <div>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
-      <Collapse prjName='Project Name' prjImage='static/img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       </div>
     </Layout>
   )

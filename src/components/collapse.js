@@ -18,7 +18,7 @@ const Collapse = (props) => {
           className={`collapse-content ${isCollapsed ? 'collapsed' : 'expanded'}`}
           aria-expanded={isCollapsed}
         >
-            <img className='w-screen mb-mob-work' src={props.prjImage}/>
+            <img className='w-screen mb-mob-work' src={props.prjImage} alt='Project Visuals'/>
             
         </div>
       </>
