@@ -19,6 +19,7 @@ const Collapse = (props) => {
           aria-expanded={isCollapsed}
         >
             <img className='w-screen mb-mob-work' src={props.prjImage}/>
+            
         </div>
       </>
     );
