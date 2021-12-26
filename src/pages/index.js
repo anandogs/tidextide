@@ -16,8 +16,9 @@ const IndexPage = () => {
       <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       <Collapse prjName='Project Name' prjImage='img-holder.png'/>
-        
-
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       </div>
     </Layout>
   )

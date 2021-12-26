@@ -9,7 +9,7 @@ const Collapse = (props) => {
     return (
       <>
         <button
-          className="block w-full font-cabinet font-medium text-mobile mb-mob-work text-left ml-mob-sides mr-mob-sides"
+          className="block font-cabinet font-medium text-mobile mb-mob-work text-left ml-mob-sides mr-mob-sides"
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
           {props.prjName}
@@ -18,7 +18,8 @@ const Collapse = (props) => {
           className={`collapse-content ${isCollapsed ? 'collapsed' : 'expanded'}`}
           aria-expanded={isCollapsed}
         >
-            <img className='w-screen mb-mob-work' src={props.prjImage}/>
+            <img className='w-screen mb-mob-work' src={props.prjImage} alt='Project Visuals'/>
+            
         </div>
       </>
     );
