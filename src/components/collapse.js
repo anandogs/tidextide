@@ -9,7 +9,7 @@ const Collapse = (props) => {
     return (
       <>
         <button
-          className="block w-full font-cabinet font-medium text-mobile mb-mob-work text-left ml-mob-sides mr-mob-sides"
+          className="block font-cabinet font-medium text-mobile mb-mob-work text-left ml-mob-sides mr-mob-sides"
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
           {props.prjName}
