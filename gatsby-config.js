@@ -1,7 +1,11 @@
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "tidextide",
   },
-  plugins: ["gatsby-plugin-postcss"],
+  plugins: [
+  
+ `gatsby-plugin-postcss`,
+  ],
 };
