@@ -1,5 +1,6 @@
 import React from 'react'
 import "./collapse.css"
+import { Link } from "gatsby";
 
 
 const Collapse = (props) => {
@@ -18,8 +19,9 @@ const Collapse = (props) => {
           className={`collapse-content ${isCollapsed ? 'collapsed' : 'expanded'}`}
           aria-expanded={isCollapsed}
         >
+            <Link to='projects'>
             <img className='w-screen mb-mob-work' src={props.prjImage} alt='Project Visuals'/>
-            
+            </Link>
         </div>
       </>
     );

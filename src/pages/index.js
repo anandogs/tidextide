@@ -25,6 +25,3 @@ const IndexPage = () => {
 }
 
 export default IndexPage
-
-// http://localhost:8000/images/mob.png
-// http://localhost:8000/src/images/mob.png
