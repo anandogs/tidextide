@@ -8,7 +8,7 @@ const Layout = ({children}) => {
 return (
     <div>
     <Header></Header>
-    <main>{children}</main>
+    <main className='mb-[4rem]'>{children}</main>
     <Footer></Footer>
     </div>
 )
