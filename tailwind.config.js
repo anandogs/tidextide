@@ -12,7 +12,7 @@ module.exports = {
         'mob-uppercase-heading': '0.625rem',
       },
       lineHeight: {
-        mobile: '1.5625rem',
+        // mobile: '1.5625rem',
       },
       margin: {
         'mob-work': '1.5625rem',

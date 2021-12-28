@@ -17,17 +17,17 @@ const Project = () => {
                 <p className="font-cabinet font-regular text-mob-footer">threecliveroad.com</p>
             </div>
             <div className="font-cabinet font-regular text-mob-footer mt-4">
-                <h4 className="text-mob-uppercase-heading">SCOPE</h4>
+                <h4 className="text-mob-uppercase-heading leading-[.9375rem] tracking-widest">SCOPE</h4>
                 <p>Packaging</p>
                 <p>Digital</p>
                 <p>Miscellaneous</p>
             </div>
             <div className="font-cabinet font-regular text-mob-footer mt-4">
-                <h4 className="text-mob-uppercase-heading">YEAR</h4>
+                <h4 className="text-mob-uppercase-heading leading-[.9375rem] tracking-widest">YEAR</h4>
                 <p>2021</p>
             </div>
             <div className="font-cabinet font-regular text-mob-footer mt-4">
-                <h4 className="text-mob-uppercase-heading">CREDITS</h4>
+                <h4 className="text-mob-uppercase-heading leading-[.9375rem] tracking-widest">CREDITS</h4>
                 <p>Photography by No. 3 Clive Road</p>
             </div>
             </div>
