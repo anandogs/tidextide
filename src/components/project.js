@@ -4,8 +4,8 @@ import Layout from "./layout";
 const Project = () => {
     return (
         <Layout>
-            <div className="relative">
-                <div className="ml-mob-project-sides">
+            <div className="relative -z-10">
+                <div className="ml-mob-project-sides ">
                     <img src="project-img-holder.png"/>
                 </div>
                 <div className="ml-mob-sides mr-mob-sides font-cabinet font-medium text-mobile absolute bottom-[5%]">
