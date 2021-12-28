@@ -16,14 +16,12 @@ const IndexPage = () => {
       <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       <Collapse prjName='Project Name' prjImage='img-holder.png'/>
-        
-
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
+      <Collapse prjName='Project Name' prjImage='img-holder.png'/>
       </div>
     </Layout>
   )
 }
 
 export default IndexPage
-
-// http://localhost:8000/images/mob.png
-// http://localhost:8000/src/images/mob.png
