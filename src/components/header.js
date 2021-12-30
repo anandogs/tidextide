@@ -10,11 +10,13 @@ const Header = () => {
     return (
     
     <div className='fixed top-0 left-0 right-0  bg-white'>
-    <div className='h-[7.75rem] flex justify-between items-center ml-mob-sides mr-mob-sides'>
+    <div className='h-mob-header md:h-tab-header flex justify-between items-center ml-mob-sides mr-mob-sides md:ml-tab-sides md:mr-tab-sides'>
             <Link to='/'>
-            <img className='h-[3.8125rem]' src={logo} alt="Logo" />
+                <img className='h-mob-logo md:h-tab-logo' src={logo} alt="Logo" />
             </Link>
-            <img className='h-[0.9375rem]' src={burgerClosed} alt="Logo" onClick={()=>setOpen(!open)}/>  
+            <div className='h-10 w-10 flex justify-end items-center' onClick={()=>setOpen(!open)}>
+            <img className='h-mob-burger md:h-tab-burger' src={burgerClosed} alt="Logo"/> 
+            </div> 
     </div>
     <DropDown menuIsOpen={open}>
                 <DropDownItem menuItem='Work' linkTo='/'></DropDownItem>
@@ -32,9 +34,9 @@ const DropDown = (props) => {
 
 
     return (
-        <nav className='absolute top-[7.75rem] w-full bg-white'>
-            
-                { props.menuIsOpen && props.children }
+        <nav className={`absolute top-[7.75rem] w-full bg-white ease-in-out duration-500 ${props.menuIsOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            {/* props.menuIsOpen && */}
+                {  props.children }
             
         </nav>
     );
