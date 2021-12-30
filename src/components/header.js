@@ -1,19 +1,55 @@
-import React from 'react'
+import React, { useState }from 'react'
 import logo from "../images/mob.png"
 import burgerClosed from "../images/burger-closed.png"
+import { Link } from 'gatsby'
 
 
 
 const Header = () => {
-return (
-    <div className='h-[7.75rem] flex justify-between items-center ml-mob-sides mr-mob-sides'>
-
-            <img className='h-[3.8125rem]' src={logo} alt="Logo" />
-            <img className='h-[0.9375rem]' src={burgerClosed} alt="Logo" />
-
+    const [open, setOpen] = useState(false)
+    return (
+    
+    <div className='fixed top-0 left-0 right-0  bg-white'>
+    <div className='h-mob-header md:h-tab-header flex justify-between items-center ml-mob-sides mr-mob-sides md:ml-tab-sides md:mr-tab-sides'>
+            <Link to='/'>
+                <img className='h-mob-logo md:h-tab-logo' src={logo} alt="Logo" />
+            </Link>
+            <div className='h-10 w-10 flex justify-end items-center' onClick={()=>setOpen(!open)}>
+            <img className='h-mob-burger md:h-tab-burger' src={burgerClosed} alt="Logo"/> 
+            </div> 
     </div>
+    <DropDown menuIsOpen={open}>
+                <DropDownItem menuItem='Work' linkTo='/'></DropDownItem>
+                <DropDownItem menuItem='About' linkTo='/about'></DropDownItem>
+                <DropDownItem menuItem='Contact' linkTo='/contact'></DropDownItem>
+                <div className='h-screen'/>
+    </DropDown>
+    </div>
+    
 )
 
 }
+
+const DropDown = (props) => {
+
+
+    return (
+        <nav className={`absolute top-[7.75rem] w-full bg-white ease-in-out duration-500 ${props.menuIsOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            {/* props.menuIsOpen && */}
+                {  props.children }
+            
+        </nav>
+    );
+};
+
+const DropDownItem = (props) => {
+    return (
+        <ul className='ml-mob-sides mr-mob-sides '>
+            <li className='block font-cabinet font-medium text-mobile mb-mob-work text-left'>
+            <Link to={props.linkTo}>{props.menuItem}</Link>
+            </li>
+        </ul>
+    );
+};
 
 export default Header
